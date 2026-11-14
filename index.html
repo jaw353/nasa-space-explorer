@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#07101e"><title>Space Explorer | NASA APOD Archive</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="wrap nav"><a class="brand" href="#top"><img src="img/nasa-worm-logo.png" alt="NASA"><b>Space Explorer</b></a><a class="navlink" href="#collection">Image archive <span>↘</span></a></div></header>
+<main id="top"><section class="hero"><div class="wrap hero-in"><div class="hero-copy"><div class="kicker"><i></i> ASTRONOMY PICTURE OF THE DAY</div><h1>Space Explorer<span>.</span></h1><p>Explore the universe nine days at a time. Choose a date range to discover the images and stories in NASA’s archive.</p></div><a class="feature" href="https://apod.nasa.gov/apod/ap250419.html" target="_blank" rel="noopener">JUPITER &nbsp; / &nbsp; JUNOCAM ↗</a></div></section>
+<div class="wrap"><form id="filters"><div class="form-title"><span class="kicker">ARCHIVE SEARCH</span><h2>Choose your dates</h2></div><label>Start date<input type="date" id="startDate" required></label><label>End date<input type="date" id="endDate" required></label><button class="primary">Get Space Images <span>→</span></button></form>
+<aside><span class="star" aria-hidden="true">✧</span><strong>Did you know?</strong><span id="fact"></span></aside>
+<section id="collection" aria-labelledby="gallery-title"><div class="section-top"><h2 id="gallery-title">Image gallery</h2><span class="kicker" id="count"></span></div><p role="status" id="status"></p><div id="gallery"></div></section></div></main>
+<footer><div class="wrap">Space Explorer <span>Student project · Imagery from NASA APOD</span></div></footer>
+<dialog id="detail" aria-labelledby="detail-title"><button id="close" aria-label="Close image details">×</button><div id="media"></div><div class="details"><time id="detail-date"></time><h2 id="detail-title"></h2><p id="explanation"></p><small id="credit"></small><a id="original" target="_blank" rel="noopener">View NASA archive entry ↗</a></div></dialog>
+<script src="js/dateRange.js"></script><script src="js/script.js"></script></body></html>
